@@ -1,0 +1,26 @@
+{
+  "name": "unipp-docs",
+  "version": "1.0.0",
+  "description": "## 本ドキュメントの目的",
+  "main": "index.js",
+  "directories": {
+    "doc": "docs"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/y-lab-dev/Unipp_Documents.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/y-lab-dev/Unipp_Documents/issues"
+  },
+  "homepage": "https://github.com/y-lab-dev/Unipp_Documents#readme",
+  "dependencies": {
+    "md-to-pdf": "^5.1.0",
+    "pdf-lib": "^1.17.1"
+  }
+}
