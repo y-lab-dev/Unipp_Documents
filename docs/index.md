@@ -1,5 +1,3 @@
 # Unipp_Documents
 
-## 本ドキュメントの目的
-
-このドキュメントは静岡大学遊橋研究室が開発している「Unipp」に関するドキュメント一覧があるリポジトリです。
+[開発手順書](https://y-lab-dev.github.io/Unipp_Documents/開発手順書)
