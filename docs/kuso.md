@@ -1,15 +1,10 @@
-# this is Test for github actions
-hello
 # 開発手順書
 
 本ドキュメントは Unipp の開発手順書である。
 内容は以下の通りである。
-
-- 環境構築
-hello
+くそが
+aaaaa
 # 開発手順書
 
 本ドキュメントは Unipp の開発手順書である。
 内容は以下の通りである。
-
-- 環境構築
