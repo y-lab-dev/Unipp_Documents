@@ -8,8 +8,8 @@
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "create-unyo": "rm docs/運用手順書/index.md && cat src/運用手順書/*.md >> docs/運用手順書/index.md ",
-    "create-kaihatu": "rm docs/開発手順書/index.md && cat src/開発手順書/*.md >> docs/開発手順書/index.md "
+    "create-unyo": "rm docs/運用手順書/index.md && cat src/運用手順書/*.md >> docs/運用手順書/index.md && rm docs/運用手順書/index.pdf && npx md-to-pdf docs/運用手順書/index.md",
+    "create-kaihatu": "rm docs/開発手順書/index.md && cat src/開発手順書/*.md >> docs/開発手順書/index.md && rm docs/開発手順書/index.pdf && npx md-to-pdf docs/開発手順書/index.md"
   },
   "repository": {
     "type": "git",
