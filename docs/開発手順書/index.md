@@ -30,38 +30,70 @@
    - ISSUE → WIP → push → review (→ push → review)\* n → merge
 2. ISSUE を立てる
 3. ## 開発フェーズ
-# 環境構築
+# unipp 環境構築手順書
+
+# サマリ
 
 ## 目的
 
-unipp で個人の PC に開発環境を構築する
+- unipp の個人開発をを構築するための手順書です。
 
 ## 前提
 
+- VScode をインストールしている
+- git をインストールしている
 - github アカウントを持っている
-- github の unipp リポジトリへの権限を付与されている
+- unipp リポジトリへの権限を持っている
 
-# 開発環境概要
+## 対象リポジトリ
+
+- Unipp
+  - https://github.com/ylab-dev/Unipp
+
+# 開発環境構築手順
+
+## 1.Docker-destop のインストール
 
 ### windows の場合
 
+```
+  windowsの場合はWSL2をインストールインストールしてから、Docker-desktopをインストールしてください
+```
+
+1. [WSL2](https://chigusa-web.com/blog/wsl2-win11/) のインストール
+2. [Docker-desktop](https://www.docker.com/products/docker-desktop/) のインストール
+
 ### mac の場合
 
-## wsl のインストール
+1. [Docker-desktop](https://www.docker.com/products/docker-desktop/) のインストール
 
-## Docker のインストール
+## 2.リポジトリのクローン
 
-## リポジトリのクローン
+VScode>Teriminal でターミナルを開き、以下のコマンドを入力する
+
+```
+git clone https://github.com/ylab-dev/Unipp.git
+```
 
 ## サービスの構築
+
+VScode>Teriminal でターミナルを開き、以下のコマンドを入力する
 
 ```
 docker-compose build
 docker-compose run --rm next yarn install
 ```
 
-## コンテナの作成と立ち上げ
+## コンテナの立ち上げ
 
 ```
 docker-compose up
+```
+
+## 動作確認
+
+web ブラウザ(google chrome 推奨)上で以下のページにアクセス
+
+```
+http://localhost:3000/review
 ```
