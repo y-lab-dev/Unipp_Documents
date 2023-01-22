@@ -4,12 +4,13 @@
   "description": "## 本ドキュメントの目的",
   "main": "index.js",
   "directories": {
-    "doc": "docs"
+    "doc": "src"
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "create-unyo": "rm docs/運用手順書/index.md && cat src/運用手順書/*.md >> docs/運用手順書/index.md && rm docs/運用手順書/index.pdf && npx md-to-pdf docs/運用手順書/index.md",
-    "create-kaihatu": "rm docs/開発手順書/index.md && cat src/開発手順書/*.md >> docs/開発手順書/index.md && rm docs/開発手順書/index.pdf && npx md-to-pdf docs/開発手順書/index.md"
+    "create-kaihatu": "rm docs/開発手順書/index.md && cat src/開発手順書/*.md >> docs/開発手順書/index.md && rm docs/開発手順書/index.pdf && npx md-to-pdf docs/開発手順書/index.md",
+    "create-jizen": "rm docs/$npm_confing_targetfile/index.md && cat src/$npm_confing_targetfile/*.md >> docs/$npm_confing_targetfile/index.md && rm docs/$npm_confing_targetfile/index.pdf && npx md-to-pdf docs/$npm_confing_targetfile/index.md"
   },
   "repository": {
     "type": "git",
