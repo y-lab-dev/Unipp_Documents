@@ -4,7 +4,7 @@
   "description": "## 本ドキュメントの目的",
   "main": "index.js",
   "directories": {
-    "doc": "src"
+    "doc": "docs"
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
